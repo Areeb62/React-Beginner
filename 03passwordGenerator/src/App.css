@@ -1,0 +1,26 @@
+@import 'tailwindcss';
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+input[type=range] {
+    background: purple;
+    appearance: none;
+    border-radius: 30px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 16px;
+  width: 16px;
+  background: #000;   /* thumb color */
+  border-radius: 50%; /* circle */
+  cursor: pointer;
+}
+
+button{
+  border-radius: 0 1rem 1rem 0;
+}
